@@ -40,6 +40,11 @@ class MainActivityWithViewModel : AppCompatActivity() {
             updateImage()
         }
 
+        val petrol = View.OnClickListener {
+            viewModel.image = "Petrol"
+            updateImage()
+        }
+
         val theatre = findViewById<Button>(R.id.theatre)
         theatre.setOnClickListener(onClickTheatre)
 

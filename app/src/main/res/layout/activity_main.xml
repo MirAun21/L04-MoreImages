@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        app:srcCompat="@drawable/station"
-        android:contentDescription="station"/>
+        android:contentDescription="station"
+        app:srcCompat="@drawable/station" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,12 +28,11 @@
             android:text="Station" />
 
         <Button
-            android:id="@+id/college"
+            android:id="@+id/button"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="onClickCollege"
-            android:text="College" />
+            android:text="Petrol" />
 
         <Button
             android:id="@+id/theatre"
@@ -41,6 +40,14 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Theatre" />
+
+        <Button
+            android:id="@+id/college"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickCollege"
+            android:text="College" />
     </LinearLayout>
 
     <TextView
